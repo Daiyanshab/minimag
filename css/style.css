@@ -1,0 +1,316 @@
+*{
+	/*overflow: hidden;*/
+	
+	/*overflow-x: hidden;*/
+}
+
+.logo{
+
+
+}
+.logo h3{
+	
+font-size: 36px;
+	
+font-weight: 700;
+	
+color: black;
+	
+text-transform: uppercase;
+}
+.top-header{
+	
+padding-top: 35px;
+}
+.icon{
+	
+color: #00000096;
+	
+font-size: 16px;
+}
+.menu{
+
+padding-left: 203px;
+
+padding-top: 20px;
+
+background: #f0f8ffbd;
+}
+.menu ul{
+
+}
+.menu ul li{
+}
+.menu ul li a{
+	
+}.logo{
+
+
+}
+.logo h3{
+	
+font-size: 36px;
+	
+font-weight: 700;
+	
+color: black;
+	
+text-transform: uppercase;
+}
+.top-header{
+	
+padding-top: 35px;
+}
+.icon{
+	
+color: #00000096;
+	
+font-size: 16px;
+}
+.menu{
+
+padding-left: 193px;
+
+padding-top: 12px;
+
+background: #f0f8ffbd;
+
+margin-top: 19px;
+}
+.menu ul{
+
+}
+.menu ul li{
+}
+.menu ul li a{
+	
+}
+a#navbarDropdown {
+    color: black;
+    margin-left: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.carousel-caption{
+
+margin-bottom: 141px;
+}
+.carousel-caption h2{font-weight: 700;}
+.carousel-caption h5{
+	
+font-size: 11px;
+}
+.carousel-caption button{
+}
+button.btn.btn-outline-light {
+    color: white;
+    border-radius: 0px;
+}
+.overlay{
+	    background: #00000052;
+	    width: 1139px;
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index: 1;
+}
+.banner{
+	position: relative;
+	margin-top: 40px;
+}
+.container-cards{
+
+margin-top: 40px;
+
+/* margin-left: 100px; */
+}
+.card img{
+	
+width: 114%;
+	
+/* height: 287px; */
+}
+.card{
+
+border: none;
+
+margin-top: 25px;
+}
+.card-body{
+
+text-align: center;
+}
+.card-body span{
+
+text-transform: uppercase;
+
+font-size: 12px;
+
+font-weight: 500;
+
+/* color: black; */
+
+/* color: #8BC34A; */
+}
+.card-body a:hover{
+	color: black;
+	text-decoration: none;
+	
+}
+.card-body a{color: #00000091;/* font-size: 13px; */}
+.card-body h5{margin-top: 10px;}
+.card-body h5:hover{
+
+	color: white;
+	text-decoration: none;
+	transition: all 0.8s ease-in-out;
+}
+.card-body p{
+
+}
+.card-body .tittle a{
+
+color: black;
+
+font-weight: 700;
+
+text-decoration: none;
+
+font-size: 19px;
+}
+.card-body .par{
+
+color: #000000b0;
+
+font-size: 16px;
+
+font-weight: 600;
+
+margin-top: 10px;
+
+font-family: unset;
+}
+.hr{
+	
+width: 38px;
+	
+height: 2px;
+	
+border: 1px solid;
+	
+margin-left: 99px;
+	
+color: #00000036;
+	
+margin-top: 10px;
+}
+
+.card-text{
+	
+}
+.read{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+.read::after{
+
+content: "";
+
+width: ;
+
+height: 2px;
+
+position: absolute;
+
+bottom: 0;
+
+left: 0;
+
+background: black;
+
+margin-left: 100px;
+transition: all 0.5s ease-in-out;
+-webkit-transition:all 0.5s ease-in-out; 
+}
+.readmore{
+	
+position: relative;
+}
+.read:hover::after{
+	width: 15%;
+}
+.author{
+
+position: absolute;
+    bottom: 15px;
+    left: -15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+.date{
+
+position: absolute;
+    bottom: 15px;
+    right: -15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+.thumbnail{
+	
+position: relative;
+	
+padding-bottom:;
+	
+color: white;
+	
+font-weight: 400;
+}
+.card:hover .author{
+ left: 15px;
+    opacity: 1;
+
+}
+.card:hover .date{
+    right: 15px;
+    opacity: 1;
+
+}
+.article .thumbnail::after{
+	content: "";
+background: #3333338c;
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+z-index: 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+.article:hover .thumbnail::after{
+opacity: 1;
+}
+
+
